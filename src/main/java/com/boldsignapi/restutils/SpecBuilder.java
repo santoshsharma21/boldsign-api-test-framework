@@ -4,6 +4,7 @@
 package com.boldsignapi.restutils;
 
 import com.boldsignapi.routes.Endpoints;
+import com.boldsignapi.utilities.ConfigReader;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
@@ -20,7 +21,7 @@ public class SpecBuilder {
 	public static RequestSpecification getRequestSpec() {
 		RequestSpecBuilder spec = new RequestSpecBuilder();
 		spec.setBaseUri(Endpoints.url)
-			.addHeader("X-API-KEY", Endpoints.API_KEY)
+			.addHeader("X-API-KEY", ConfigReader.pro.getProperty("api_key"))
 			.setContentType(ContentType.JSON);
 		RequestSpecification reqSpec = spec.build();
 		return reqSpec;
