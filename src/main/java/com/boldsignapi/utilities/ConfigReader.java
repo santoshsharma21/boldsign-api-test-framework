@@ -13,10 +13,10 @@ import java.util.Properties;
 public class ConfigReader {
 
 	// init properties instance
-	public static Properties pro;
-	
-	// method loads config file
-	public void loadConfig() {
+	private static Properties pro;
+
+	// method return api key
+	public static String getApiKey() {
 		File filePath = new File(System.getProperty("user.dir") + "/configurations/config.properties");
 		try {
 			FileInputStream fi = new FileInputStream(filePath);
@@ -25,5 +25,7 @@ public class ConfigReader {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		
+		return pro.getProperty("api_key");
 	}
 }
