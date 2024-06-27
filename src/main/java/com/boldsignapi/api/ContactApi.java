@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.boldsignapi.apis;
+package com.boldsignapi.api;
 
 /**
  * 
