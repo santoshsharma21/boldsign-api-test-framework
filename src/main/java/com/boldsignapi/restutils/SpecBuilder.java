@@ -21,7 +21,7 @@ public class SpecBuilder {
 	public static RequestSpecification getRequestSpec() {
 		RequestSpecBuilder spec = new RequestSpecBuilder();
 		spec.setBaseUri(Endpoints.url)
-			.addHeader("X-API-KEY", ConfigReader.pro.getProperty("api_key"))
+			.addHeader("X-API-KEY", ConfigReader.getApiKey())
 			.setContentType(ContentType.JSON);
 		RequestSpecification reqSpec = spec.build();
 		return reqSpec;
