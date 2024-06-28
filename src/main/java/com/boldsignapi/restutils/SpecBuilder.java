@@ -27,6 +27,16 @@ public class SpecBuilder {
 		return reqSpec;
 	}
 	
+	public static RequestSpecification getRequestSpec(Object payload) {
+		RequestSpecBuilder spec = new RequestSpecBuilder();
+		spec.setBaseUri(Endpoints.url)
+			.addHeader("X-API-KEY", ConfigReader.getApiKey())
+			.setContentType(ContentType.JSON)
+			.setBody(payload);
+		RequestSpecification reqSpec = spec.build();
+		return reqSpec;
+	}
+	
 	// response spec build
 	public static ResponseSpecification getResponseSpec() {
 		ResponseSpecBuilder spec = new ResponseSpecBuilder();
