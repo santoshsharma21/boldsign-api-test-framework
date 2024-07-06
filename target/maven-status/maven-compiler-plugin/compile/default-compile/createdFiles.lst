@@ -1,0 +1,9 @@
+com\boldsignapi\utilities\ConfigReader.class
+com\boldsignapi\extentreport\ReportManager.class
+com\boldsignapi\extentreport\ReportLogs.class
+com\boldsignapi\restutils\SpecBuilder.class
+com\boldsignapi\api\ContactApi.class
+com\boldsignapi\extentreport\ListenerClass.class
+com\boldsignapi\restutils\HttpMethod.class
+com\boldsignapi\utilities\TestUtils.class
+com\boldsignapi\routes\Endpoints.class

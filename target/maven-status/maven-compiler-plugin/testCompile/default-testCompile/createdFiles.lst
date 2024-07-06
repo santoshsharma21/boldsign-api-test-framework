@@ -1,0 +1,5 @@
+com\boldsignapi\tests\ContactApiTests.class
+com\boldsignapi\pojos\ContactPojo.class
+com\boldsignapi\payload\ContactPayload.class
+com\boldsignapi\pojos\ContactPojo$ContactPojoBuilder.class
+com\boldsignapi\pojos\ContactPojo$Phone.class

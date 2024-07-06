@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.221" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="A:\ApiTestingProjects\boldsignapi\target\test-classes;A:\ApiTestingProjects\boldsignapi\target\classes;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Santosh Sharma\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Santosh Sharma\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Santosh Sharma\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Santosh Sharma\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Santosh Sharma\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Santosh Sharma\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Santosh Sharma\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Santosh Sharma\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Santosh Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Santosh Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Santosh Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Santosh Sharma\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\Santosh Sharma\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\Santosh Sharma\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Santosh Sharma\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Santosh Sharma\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Santosh Sharma\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Santosh Sharma\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Santosh Sharma\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Santosh Sharma\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Santosh Sharma\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Santosh Sharma\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Santosh Sharma\AppData\Local\Temp\surefire613280236022934983\surefirebooter-20240701215739290_3.jar C:\Users\Santosh Sharma\AppData\Local\Temp\surefire613280236022934983 2024-07-01T21-57-38_938-jvmRun1 surefire-20240701215739290_1tmp surefire_0-20240701215739290_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="A:\ApiTestingProjects\boldsignapi\target\test-classes;A:\ApiTestingProjects\boldsignapi\target\classes;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Santosh Sharma\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Santosh Sharma\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Santosh Sharma\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Santosh Sharma\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\Santosh Sharma\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\Santosh Sharma\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Santosh Sharma\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Santosh Sharma\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Santosh Sharma\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Santosh Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Santosh Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Santosh Sharma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Santosh Sharma\.m2\repository\org\json\json\20240303\json-20240303.jar;C:\Users\Santosh Sharma\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\Santosh Sharma\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\Santosh Sharma\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\Santosh Sharma\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\Santosh Sharma\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\Santosh Sharma\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\Santosh Sharma\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\Santosh Sharma\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Santosh Sharma\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Santosh Sharma\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Santosh Sharma\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Santosh Sharma"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.3.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="A:\ApiTestingProjects\boldsignapi"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Santosh Sharma\AppData\Local\Temp\surefire613280236022934983\surefirebooter-20240701215739290_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="user.name" value="Santosh Sharma"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Santosh Sharma\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\SANTOS~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.3.1"/>
+    <property name="user.dir" value="A:\ApiTestingProjects\boldsignapi"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Lenovo\FusionEngine;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\apache-maven-3.8.5\bin;C:\Program Files\Git\cmd;C:\Program Files\Notepad++;C:\Users\Santosh Sharma\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Santosh Sharma\AppData\Local\Programs\Python\Python312\;C:\Users\Santosh Sharma\AppData\Local\Programs\Python\Launcher\;C:\Users\Santosh Sharma\AppData\Local\Microsoft\WindowsApps;;C:\Users\Santosh Sharma\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="createContactsTests[org.testng.TestRunner@23941fb4](1)" classname="com.boldsignapi.tests.ContactApiTests" time="5.269">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.boldsign.com/v1/contacts/create
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		X-API-KEY=OTk0MTVjN2YtNzNhNS00NzgyLWE5YzYtYWJhZGM0YWY0YzVl
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+[
+    {
+        "email": "ilona.mccullough@hotmail.com",
+        "name": "Ilona Shields",
+        "phoneNumber": {
+            "countryCode": "+91",
+            "number": "1234567839"
+        },
+        "jobTitle": "Legacy Agent",
+        "companyName": "Schaefer-Cole"
+    },
+    {
+        "email": "vincenzo.gulgowski@gmail.com",
+        "name": "Katheryn Stamm",
+        "phoneNumber": {
+            "countryCode": "+91",
+            "number": "1234567854"
+        },
+        "jobTitle": "Customer Banking Representative",
+        "companyName": "Spinka, Stroman and Aufderhar"
+    }
+]
+HTTP/1.1 200 OK
+Content-Length: 205
+Content-Type: application/json; charset=utf-8
+Date: Mon, 01 Jul 2024 16:27:45 GMT
+Server: Kestrel
+Cache-Control: no-cache, no-store, must-revalidate
+Request-Context: appId=cid-v1:71d42f09-afce-49d6-89fa-4fa140c641d3
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer
+X-Permitted-Cross-Domain-Policies: none
+Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+api-supported-versions: 1-beta, 1
+X-Rate-Limit-Limit: 1h
+X-Rate-Limit-Remaining: 45
+X-Rate-Limit-Reset: 2024-07-01T17:00:00.0000000Z
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "createdContacts": [
+        {
+            "id": "7500626e-be08-40ce-8a9b-986b29348023c_xpWfK",
+            "email": "ilona.mccullough@hotmail.com"
+        },
+        {
+            "id": "7500626e-be08-40ce-8a9b-986b29348023c_CjqPw",
+            "email": "vincenzo.gulgowski@gmail.com"
+        }
+    ]
+}
+HTTP/1.1 200 OK
+Content-Length: 205
+Content-Type: application/json; charset=utf-8
+Date: Mon, 01 Jul 2024 16:27:45 GMT
+Server: Kestrel
+Cache-Control: no-cache, no-store, must-revalidate
+Request-Context: appId=cid-v1:71d42f09-afce-49d6-89fa-4fa140c641d3
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer
+X-Permitted-Cross-Domain-Policies: none
+Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+api-supported-versions: 1-beta, 1
+X-Rate-Limit-Limit: 1h
+X-Rate-Limit-Remaining: 45
+X-Rate-Limit-Reset: 2024-07-01T17:00:00.0000000Z
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "createdContacts": [
+        {
+            "id": "7500626e-be08-40ce-8a9b-986b29348023c_xpWfK",
+            "email": "ilona.mccullough@hotmail.com"
+        },
+        {
+            "id": "7500626e-be08-40ce-8a9b-986b29348023c_CjqPw",
+            "email": "vincenzo.gulgowski@gmail.com"
+        }
+    ]
+}
+GENERATED-CONTACT-ID = 7500626e-be08-40ce-8a9b-986b29348023c_xpWfK
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="fetchContactTest[org.testng.TestRunner@23941fb4](1)" classname="com.boldsignapi.tests.ContactApiTests" time="0.619">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://api.boldsign.com/v1/contacts/get?id=7500626e-be08-40ce-8a9b-986b29348023c_xpWfK
+Proxy:			<none>
+Request params:	<none>
+Query params:	id=7500626e-be08-40ce-8a9b-986b29348023c_xpWfK
+Form params:	<none>
+Path params:	<none>
+Headers:		X-API-KEY=OTk0MTVjN2YtNzNhNS00NzgyLWE5YzYtYWJhZGM0YWY0YzVl
+				Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Content-Length: 228
+Content-Type: application/json; charset=utf-8
+Date: Mon, 01 Jul 2024 16:27:47 GMT
+Server: Kestrel
+Cache-Control: no-cache, no-store, must-revalidate
+Request-Context: appId=cid-v1:71d42f09-afce-49d6-89fa-4fa140c641d3
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer
+X-Permitted-Cross-Domain-Policies: none
+Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+api-supported-versions: 1-beta, 1
+X-Rate-Limit-Limit: 1h
+X-Rate-Limit-Remaining: 44
+X-Rate-Limit-Reset: 2024-07-01T17:00:00.0000000Z
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "id": "7500626e-be08-40ce-8a9b-986b29348023c_xpWfK",
+    "name": "Ilona Shields",
+    "email": "ilona.mccullough@hotmail.com",
+    "companyName": "Schaefer-Cole",
+    "jobTitle": "Legacy Agent",
+    "phoneNumber": {
+        "countryCode": "+91",
+        "number": "1234567839"
+    }
+}
+HTTP/1.1 200 OK
+Content-Length: 228
+Content-Type: application/json; charset=utf-8
+Date: Mon, 01 Jul 2024 16:27:47 GMT
+Server: Kestrel
+Cache-Control: no-cache, no-store, must-revalidate
+Request-Context: appId=cid-v1:71d42f09-afce-49d6-89fa-4fa140c641d3
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer
+X-Permitted-Cross-Domain-Policies: none
+Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+api-supported-versions: 1-beta, 1
+X-Rate-Limit-Limit: 1h
+X-Rate-Limit-Remaining: 44
+X-Rate-Limit-Reset: 2024-07-01T17:00:00.0000000Z
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+{
+    "id": "7500626e-be08-40ce-8a9b-986b29348023c_xpWfK",
+    "name": "Ilona Shields",
+    "email": "ilona.mccullough@hotmail.com",
+    "companyName": "Schaefer-Cole",
+    "jobTitle": "Legacy Agent",
+    "phoneNumber": {
+        "countryCode": "+91",
+        "number": "1234567839"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateContactTest[org.testng.TestRunner@23941fb4](1)" classname="com.boldsignapi.tests.ContactApiTests" time="0.722">
+    <system-out><![CDATA[Request method:	PUT
+Request URI:	https://api.boldsign.com/v1/contacts/update?id=7500626e-be08-40ce-8a9b-986b29348023c_xpWfK
+Proxy:			<none>
+Request params:	<none>
+Query params:	id=7500626e-be08-40ce-8a9b-986b29348023c_xpWfK
+Form params:	<none>
+Path params:	<none>
+Headers:		X-API-KEY=OTk0MTVjN2YtNzNhNS00NzgyLWE5YzYtYWJhZGM0YWY0YzVl
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "teodora.monahan@gmail.com",
+    "name": "Taylor Sawayn",
+    "phoneNumber": {
+        "countryCode": "+91",
+        "number": "1234567821"
+    },
+    "jobTitle": "Central Consultant",
+    "companyName": "Mante, Hirthe and Kemmer"
+}
+HTTP/1.1 200 OK
+Content-Length: 0
+Date: Mon, 01 Jul 2024 16:27:47 GMT
+Server: Kestrel
+Cache-Control: no-cache, no-store, must-revalidate
+Request-Context: appId=cid-v1:71d42f09-afce-49d6-89fa-4fa140c641d3
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer
+X-Permitted-Cross-Domain-Policies: none
+Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+api-supported-versions: 1-beta, 1
+X-Rate-Limit-Limit: 1h
+X-Rate-Limit-Remaining: 43
+X-Rate-Limit-Reset: 2024-07-01T17:00:00.0000000Z
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+]]></system-out>
+  </testcase>
+  <testcase name="deleteContactTest[org.testng.TestRunner@23941fb4](1)" classname="com.boldsignapi.tests.ContactApiTests" time="0.604">
+    <failure message="expected [2045] but found [204]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [2045] but found [204]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at com.boldsignapi.tests.ContactApiTests.deleteContactTest(ContactApiTests.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://api.boldsign.com/v1/contacts/delete?id=7500626e-be08-40ce-8a9b-986b29348023c_xpWfK
+Proxy:			<none>
+Request params:	<none>
+Query params:	id=7500626e-be08-40ce-8a9b-986b29348023c_xpWfK
+Form params:	<none>
+Path params:	<none>
+Headers:		X-API-KEY=OTk0MTVjN2YtNzNhNS00NzgyLWE5YzYtYWJhZGM0YWY0YzVl
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Date: Mon, 01 Jul 2024 16:27:48 GMT
+Server: Kestrel
+Cache-Control: no-cache, no-store, must-revalidate
+Request-Context: appId=cid-v1:71d42f09-afce-49d6-89fa-4fa140c641d3
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer
+X-Permitted-Cross-Domain-Policies: none
+Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+api-supported-versions: 1-beta, 1
+X-Rate-Limit-Limit: 1h
+X-Rate-Limit-Remaining: 42
+X-Rate-Limit-Reset: 2024-07-01T17:00:00.0000000Z
+Via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+]]></system-out>
+  </testcase>
+</testsuite>
