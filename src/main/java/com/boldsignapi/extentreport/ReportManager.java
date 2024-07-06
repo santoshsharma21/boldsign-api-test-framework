@@ -30,7 +30,7 @@ public class ReportManager {
 		
 		sparkReporter = new ExtentSparkReporter(destPath);
 		sparkReporter.config().setTheme(Theme.DARK);
-		sparkReporter.config().setReportName("Http Method Test Execution Report");
+		sparkReporter.config().setReportName("Test Execution Report");
 		
 		extentReports = new ExtentReports();
 		extentReports.attachReporter(sparkReporter);
